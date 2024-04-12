@@ -1,0 +1,42 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(12, 85, 219) 35%, rgb(26, 121, 2) 100%);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(240, 83, 30);
+    font-size: 50px;
+    font-weight: 600;
+    font-family: sans-serif
+}
+
+#tableForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+#inputID {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.time-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    color: lightskyblue;
+}
